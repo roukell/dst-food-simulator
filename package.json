@@ -24,7 +24,8 @@
   "homepage": "https://github.com/roukell/dst-food-simulator#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.11.14"
+    "mongoose": "^5.11.14",
+    "node-sass": "^4.14.1"
   },
   "devDependencies": {
     "concurrently": "^5.3.0",
