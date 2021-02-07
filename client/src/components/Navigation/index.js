@@ -2,11 +2,13 @@ import React from 'react';
 
 const Navigation = () => (
   <div className="Navigation">
-    <p>LOGO</p>
-    <p>work</p>
-    <p>resume</p>
-    <p>about</p>
-    <p>contact</p>
+    <img alt="LOGO"></img>
+    <div className="Navigation__contents">
+      <p>work</p>
+      <p>resume</p>
+      <p>about</p>
+    </div>
+    <button>contact</button>
   </div>
 );
 

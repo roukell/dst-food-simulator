@@ -1,4 +1,11 @@
 .Navigation {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+
+  &__contents {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-items: center;
+  }
 }
