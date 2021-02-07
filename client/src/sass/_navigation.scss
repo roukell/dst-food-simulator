@@ -12,6 +12,7 @@
   &__contents {
     display: grid;
     grid-template-columns: repeat(3, 100px);
+    justify-content: center;
     justify-items: center;
     align-items: center;
   }
