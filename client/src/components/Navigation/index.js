@@ -1,14 +1,15 @@
 import React from 'react';
+import Logo from '../../images/dst_logo.png';
 
 const Navigation = () => (
   <div className="Navigation">
-    <img alt="LOGO"></img>
+    <img className="Navigation__logo" alt="Logo" src={Logo}></img>
     <div className="Navigation__contents">
-      <p>work</p>
-      <p>resume</p>
-      <p>about</p>
+      <p>Recipe</p>
+      <p>Chef's special</p>
+      <p>About</p>
     </div>
-    <button>contact</button>
+    <button className="Navigation__contact">contact</button>
   </div>
 );
 

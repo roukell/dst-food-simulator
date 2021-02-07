@@ -1,11 +1,37 @@
 .Navigation {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-content: space-evenly;
+  justify-content: space-around;
+  border-bottom: var(--line);
+
+  &__logo {
+    height: 10rem;
+    justify-self: start;
+  }
 
   &__contents {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     justify-items: center;
+    align-items: center;
+  }
+
+  &__contact {
+    justify-self: end;
+    align-self:center;
+    background-color: var(--color-primary-dark);
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding: 1.2rem 3rem;
+
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      background-color: var(--color-secondary-light);
+    }
   }
 }
